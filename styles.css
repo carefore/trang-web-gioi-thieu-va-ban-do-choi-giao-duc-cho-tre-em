@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px 0;
+}
+
+#toyList {
+    margin-top: 20px;
+}
+
+.toy {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}

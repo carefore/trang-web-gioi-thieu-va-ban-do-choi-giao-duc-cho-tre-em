@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web đồ chơi giáo dục</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <h1>Trang web đồ chơi giáo dục</h1>
+
+    <form id="toyForm">
+        <label for="toyName">Tên đồ chơi:</label>
+        <input type="text" id="toyName" name="toyName" required>
+
+        <label for="description">Mô tả:</label>
+        <textarea id="description" name="description" required></textarea>
+
+        <label for="price">Giá:</label>
+        <input type="number" id="price" name="price" required>
+
+        <input type="submit" value="Thêm đồ chơi">
+    </form>
+
+    <div id="toyList">
+        <!-- Danh sách đồ chơi sẽ hiển thị ở đây -->
+    </div>
+
+</body>
+</html>
